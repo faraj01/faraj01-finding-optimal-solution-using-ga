@@ -11,9 +11,9 @@ Throw genetic algorithms, find the optimal schedule (alpha) that returns the min
 alpha=<(m0,t0),(m1,t1), (m2,t2),(m3,t3),...(mi-1,ti-1),(mi,ti)>
 with the following constraints in order to calculate the the cost of alpha, Pi(alpha)= sumPiD+ sumPiC*ti
 
-% mi Not equal mi+1
-% run(alpha)=<v0,v1,v2,v3,...,vi-1,v0)> within T(alpha)=<t0,t1,t2,t3,...,ti-1,ti>
-% % Vmin <= V(i) <= Vmax
+mi Not equal mi+1
+run(alpha)=<v0,v1,v2,v3,...,vi-1,v0)> within T(alpha)=<t0,t1,t2,t3,...,ti-1,ti>
+% Vmin <= V(i) <= Vmax
 % 0 < ti <=Tmax
 % sum(ti)= Tmax
 %
